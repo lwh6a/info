@@ -1,4 +1,0 @@
----
-title: oracle
----
-## oracle
