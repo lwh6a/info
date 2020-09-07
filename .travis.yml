@@ -1,0 +1,32 @@
+language: node_js
+node_js:
+  - lts/*
+
+
+script:
+  - npm run docs:build
+deploy:
+- provider: pages:git
+  # 使用v2版本的
+  edge: true # opt in to dpl v2
+  # Git项目
+  repo: lwh6a/lwh6a.github.io
+  # 不清理编译文件
+  skip-cleanup: true
+  # 目录
+  local_dir: docs/.vuepress/dist
+  # token
+  github-token: $github
+  # CNAME
+  fqdn: info.liuwenhao.store
+  # 非强制
+  keep-history: true
+  # 用token的邮箱用户名提交
+  committer_from_gh: true
+  # 目标分支
+  target_branch: master
+
+# ssh
+addons:
+  ssh_known_hosts:
+  - github.com
