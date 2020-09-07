@@ -24,7 +24,7 @@ deploy:
   # token
   github-token: $github
   # CNAME
-  fqdn: doc.db117.top
+  fqdn: info.liuwenhao.store
   # 非强制
   keep-history: true
   # 用token的邮箱用户名提交
