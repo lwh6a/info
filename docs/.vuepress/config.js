@@ -2,7 +2,7 @@ const headConf = require('../../config/headConf.js');
 const build = require("../../config/build.js");
 
 module.exports = {
-    title: '大兵个人主页',
+    title: '刘文豪个人主页',
     description: '文档',
     head: headConf,
     themeConfig: {
