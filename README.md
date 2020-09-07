@@ -1,5 +1,5 @@
 # 学习记录
-[![Build Status](https://travis-ci.org/db117/doc.svg?branch=master)](https://travis-ci.org/db117/doc)
+[![Build Status](https://travis-ci.com/lwh6a/info.svg?branch=master)](https://travis-ci.com/github/lwh6a/info)
 
 > 主要记录一下工作遇到的一下问题,学习到的一下东西
 >
