@@ -2,11 +2,11 @@ const headConf = require('../../config/headConf.js');
 const build = require("../../config/build.js");
 
 module.exports = {
-    title: '大兵个人主页',
+    title: '刘文豪的个人主页',
     description: '文档',
     head: headConf,
     themeConfig: {
-        repo: 'db117/doc',
+        repo: 'lwh6a/info',
         // 你的 Git 项目地址，添加后会在导航栏的最后追加
         // 启用编辑
         editLinks: true,
