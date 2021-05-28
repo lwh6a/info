@@ -1,0 +1,42 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+
+      - name: Install and Build
+        run: |
+          npm install
+          npm run docs:build
+      - name: Deploy To github pages
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: master
+          folder: docs/.vuepress/dist
+          token: ${{secrets.deploy_token}}
+          repository-name: lwh6a/lwh6a.github.io
+
+      - name: Private Key
+        env:
+          ACTIONS_PRIVATE_KEY: ${{ secrets.ACTIONS_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$ACTIONS_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan gitee.com >> ~/.ssh/known_hosts
+      - name: Push gitee
+        continue-on-error: true # 防止步骤失败时作业也会失败
+        run: |
+          cd docs/.vuepress/dist
+
+          git config --global init.defaultBranch master
+          git init
+          git config user.name "lwh6a"
+          git config user.email "lwh19900521@163.com"
+          git add .
+          git commit -m "发布pages"
+          git remote add origin git@gitee.com:lwh6a/lwh6a.git
+          git push --force origin master:master
