@@ -16,7 +16,7 @@ jobs:
         with:
           branch: master
           folder: docs/.vuepress/dist
-          token: ${{secrets.deploy_token}}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository-name: lwh6a/lwh6a.github.io
 
       - name: Private Key
