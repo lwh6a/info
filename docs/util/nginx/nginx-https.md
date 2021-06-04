@@ -39,7 +39,7 @@ http {
 	# 80强转443 HTTPS
 	server {
 		listen 80;
-		server_name *.db117.top;
+		server_name *.lwh6a.store;
 		return 301 https://$http_host$request_uri;
 	}
 
@@ -48,7 +48,7 @@ http {
     server {
         listen       443 ssl;
         # 服务名称
-        server_name *.db117.top;
+        server_name *.lwh6a.store;
 		
 		# 秘钥
         ssl_certificate      /ssl/fullchain.crt;
@@ -78,7 +78,7 @@ http {
 # 80强转443 HTTPS
 	server {
 		listen 80;
-		server_name *.db117.top;
+		server_name *.lwh6a.store;
 		return 301 https://$http_host$request_uri;
 	}
 ```

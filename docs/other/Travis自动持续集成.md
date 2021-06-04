@@ -27,7 +27,7 @@ script:
 deploy:
   provider: pages
   # Git项目
-  repo: db117/db117.github.io
+  repo: lwh6a/lwh6a.github.io
   # 不清理编译文件
   skip-cleanup: true
   # 目录

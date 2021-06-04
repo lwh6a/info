@@ -43,7 +43,7 @@ title: 大量Excel导入
 ##  工具类
 
 ```
-package com.db117.example.poi;
+package com.lwh6a.example.poi;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.ooxml.util.SAXHelper;
@@ -381,7 +381,7 @@ public class ExcelImportUtil {
 | a3   | b3   | c3   |
 
 ```
-package com.db117.example.poi;
+package com.lwh6a.example.poi;
 
 import org.junit.Assert;
 import org.junit.Before;
