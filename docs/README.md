@@ -19,11 +19,11 @@ pageClass: custom-page-class
 [码云](https://gitee.com/liuhaoyun)
 [CSDN博客](https://blog.csdn.net/weixin_42321499)
 [leetcode](https://leetcode-cn.com/u/zhu-liu-hao-yun/)
-[阿里云](https://www.aliyun.com/minisite/goods)
+
 
 ## 其他
 [腾讯云](https://cloud.tencent.com/)
-[阿里云](https://cn.aliyun.com/)
+[阿里云](https://www.aliyun.com/minisite/goods)
 [亚马逊云](https://aws.amazon.com/cn/)
 [freenom](https://www.freenom.com/)
 
