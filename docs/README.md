@@ -34,6 +34,7 @@ pageClass: custom-page-class
 [知识星球](https://wx.zsxq.com/)
 [极客时间](https://time.geekbang.org/)
 [ labuladong 算法]( https://labuladong.gitbook.io/algo/ )
+[ 马同学高等数学]( https://www.matongxue.com/ )
 
 ## 工具
 [极客导航](https://www.jikedaohang.com)
