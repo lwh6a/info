@@ -46,6 +46,7 @@ pageClass: custom-page-class
 [小滴课堂]( https://xdclass.net/ )
 [牛客网]( https://www.nowcoder.com/ )
 [中国大学MOOC]( https://www.icourse163.org/ )
+[machine-learning]( https://www.coursera.org/learn/machine-learning )
 
 
 ## 工具
