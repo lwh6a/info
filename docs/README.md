@@ -30,9 +30,9 @@ pageClass: custom-page-class
 [freenom](https://www.freenom.com/)
 
 ## 学习
-[尚德](http://yi.sunlands.com/ent-portal-war/)
 [极客时间](https://time.geekbang.org/)
 [遇到源码](http://svip.iocoder.cn/index/)
+[尚德](http://yi.sunlands.com/ent-portal-war/)
 [ labuladong 算法]( https://labuladong.gitbook.io/algo/ )
 [ae网络学习]( https://www.geeksforgeeks.org/computer-network-tutorials/ )
 [mall学习知识点]( http://www.macrozheng.com/#/foreword/mall_foreword_02 )
@@ -49,6 +49,7 @@ pageClass: custom-page-class
 [牛客网]( https://www.nowcoder.com/ )
 [中国大学MOOC]( https://www.icourse163.org/ )
 [machine-learning]( https://www.coursera.org/learn/machine-learning )
+[C语言学习]( https://www.runoob.com/cprogramming/c-environment-setup.html )
 
 
 ## 工具
@@ -62,6 +63,7 @@ pageClass: custom-page-class
 [idea插件](http://plugins.jetbrains.com/)
 [json解析工具](https://www.sojson.com/)
 [bejson工具](https://www.bejson.com/)
+[mockito](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
 [potplayer](https://potplayer.daum.net/?lang=zh_CN)
 [谷歌分析](https://analytics.google.com/analytics/web)
 [来此加密](https://letsencrypt.osfipin.com/)

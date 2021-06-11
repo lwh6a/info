@@ -65,6 +65,7 @@ deploy:
 
 #### 使用Travis Client
 
+[开发](https://docs.travis-ci.com/user/deployment/script)
 [文档](https://github.com/travis-ci/travis.rb)
 
 ```
