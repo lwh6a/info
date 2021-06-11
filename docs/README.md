@@ -11,6 +11,7 @@ pageClass: custom-page-class
 [秘迹](https://mijisou.com)
 [magi]( https://magi.com/)
 [stackoverflow](https://stackoverflow.com)
+[思否](https://segmentfault.com/)
 
 
 ## 个人站点
@@ -18,6 +19,7 @@ pageClass: custom-page-class
 [码云](https://gitee.com/liuhaoyun)
 [CSDN博客](https://blog.csdn.net/weixin_42321499)
 [leetcode](https://leetcode-cn.com/u/zhu-liu-hao-yun/)
+[阿里云](https://www.aliyun.com/minisite/goods)
 
 ## 其他
 [腾讯云](https://cloud.tencent.com/)
@@ -61,6 +63,7 @@ pageClass: custom-page-class
 [dockerHub](https://hub.docker.com/)
 [msdn](https://msdn.itellyou.cn/)
 [html素材](http://www.htmlsucai.com)
+[域名购买](https://sg.godaddy.com/zh)
 
 ## 文档
 [石墨文档](https://shimo.im/desktop)
