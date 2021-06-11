@@ -12,6 +12,7 @@ pageClass: custom-page-class
 [magi]( https://magi.com/)
 [stackoverflow](https://stackoverflow.com)
 [思否](https://segmentfault.com/)
+[Twitter](https://twitter.com/)
 
 
 ## 个人站点
@@ -19,6 +20,7 @@ pageClass: custom-page-class
 [码云](https://gitee.com/liuhaoyun)
 [CSDN博客](https://blog.csdn.net/weixin_42321499)
 [leetcode](https://leetcode-cn.com/u/zhu-liu-hao-yun/)
+[voice](https://voice.google.com/)
 
 
 ## 其他
@@ -36,7 +38,15 @@ pageClass: custom-page-class
 [知识星球](https://wx.zsxq.com/)
 [极客时间](https://time.geekbang.org/)
 [ labuladong 算法]( https://labuladong.gitbook.io/algo/ )
-[ 马同学高等数学]( https://www.matongxue.com/ )
+[ae网络学习]( https://www.geeksforgeeks.org/computer-network-tutorials/ )
+[马同学高等数学]( https://www.matongxue.com/ )
+[mall学习知识点]( http://www.macrozheng.com/#/foreword/mall_foreword_02 )
+[链滴]( https://ld246.com/ )
+[processON]( https://processon.com/ )
+[小滴课堂]( https://xdclass.net/ )
+[牛客网]( https://www.nowcoder.com/ )
+[中国大学MOOC]( https://www.icourse163.org/ )
+
 
 ## 工具
 [极客导航](https://www.jikedaohang.com)
@@ -56,6 +66,10 @@ pageClass: custom-page-class
 [ping工具](http://port.ping.pe/)
 [五百丁](https://www.500d.me/)
 [ico生成](http://www.ico51.cn/)
+
+## 关注
+[喵's StackHarbor](http://aria.ismyonly.one/)
+[收藏猫](https://chrome.pictureknow.com/)
 
 
 ## 资源
@@ -95,3 +109,4 @@ pageClass: custom-page-class
 [Gmail](https://mail.google.com/mail)
 [263](https://www.263.net/)
 [qq](https://mail.qq.com/)
+[outlook](https://outlook.live.com/)
