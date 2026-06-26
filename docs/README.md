@@ -7,7 +7,7 @@ sidebar: false
   <header class="hero">
     <div class="hero-inner">
       <p class="kicker">PERSONAL · ENGINEERING · AI</p>
-      <h1 class="hero-name">刘文豪 <span class="gold">/ Wenhao</span></h1>
+      <h1 class="hero-name">刘文豪 <span class="name-accent">/ Wenhao</span></h1>
       <p class="hero-role">Java 后端工程师 <span class="sep">·</span> AI &amp; Agent 方向探索者</p>
       <p class="hero-lead">深耕 Java / JVM / 分布式后端，持续探索大模型应用、Agent 工程与 RAG。<br/>这里聚合我的技术导航、前沿信息与日常工具。</p>
       <div class="chips">
@@ -17,10 +17,10 @@ sidebar: false
         <span class="chip">分布式</span>
         <span class="chip">Redis</span>
         <span class="chip">Docker</span>
-        <span class="chip chip-gold">LLM</span>
-        <span class="chip chip-gold">Agent</span>
-        <span class="chip chip-gold">RAG</span>
-        <span class="chip chip-gold">Prompt</span>
+        <span class="chip chip-ai">LLM</span>
+        <span class="chip chip-ai">Agent</span>
+        <span class="chip chip-ai">RAG</span>
+        <span class="chip chip-ai">Prompt</span>
       </div>
       <div class="hero-links">
         <a href="https://github.com/lwh6a" target="_blank" rel="noopener">GitHub ↗</a>
@@ -33,7 +33,7 @@ sidebar: false
   </header>
   <section class="grid">
     <article class="cat cat-ai">
-      <header class="cat-head"><span class="cat-no">AI</span><h3>AI 对话 · LLM</h3></header>
+      <header class="cat-head"><span class="cat-no">AI</span><h3><span class="zh">AI 对话</span><span class="en">LLM</span></h3></header>
       <nav class="cat-links">
         <a href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a>
         <a href="https://claude.ai/" target="_blank" rel="noopener">Claude</a>
@@ -46,7 +46,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat cat-ai">
-      <header class="cat-head"><span class="cat-no">01</span><h3>AI 前沿 · Frontier</h3></header>
+      <header class="cat-head"><span class="cat-no">01</span><h3><span class="zh">AI 前沿</span><span class="en">Frontier</span></h3></header>
       <nav class="cat-links">
         <a href="https://openai.com/news/" target="_blank" rel="noopener">OpenAI 研究</a>
         <a href="https://www.anthropic.com/news" target="_blank" rel="noopener">Anthropic</a>
@@ -59,7 +59,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat cat-ai">
-      <header class="cat-head"><span class="cat-no">02</span><h3>AI 大佬 · 博客 &amp; YouTube</h3></header>
+      <header class="cat-head"><span class="cat-no">02</span><h3><span class="zh">AI 大佬</span><span class="en">Blogs &amp; YouTube</span></h3></header>
       <nav class="cat-links">
         <a href="https://www.youtube.com/@AndrejKarpathy" target="_blank" rel="noopener">Karpathy ▶</a>
         <a href="https://github.com/karpathy" target="_blank" rel="noopener">Karpathy GitHub</a>
@@ -75,7 +75,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat cat-ai">
-      <header class="cat-head"><span class="cat-no">03</span><h3>Agent 工程 · 框架</h3></header>
+      <header class="cat-head"><span class="cat-no">03</span><h3><span class="zh">Agent 工程</span><span class="en">Frameworks</span></h3></header>
       <nav class="cat-links">
         <a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">MCP 协议</a>
         <a href="https://www.langchain.com/" target="_blank" rel="noopener">LangChain</a>
@@ -90,7 +90,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat">
-      <header class="cat-head"><span class="cat-no">04</span><h3>技术社区 · Community</h3></header>
+      <header class="cat-head"><span class="cat-no">04</span><h3><span class="zh">技术社区</span><span class="en">Community</span></h3></header>
       <nav class="cat-links">
         <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
         <a href="https://news.ycombinator.com/" target="_blank" rel="noopener">Hacker News</a>
@@ -105,7 +105,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat">
-      <header class="cat-head"><span class="cat-no">05</span><h3>搜索 · Search</h3></header>
+      <header class="cat-head"><span class="cat-no">05</span><h3><span class="zh">搜索</span><span class="en">Search</span></h3></header>
       <nav class="cat-links">
         <a href="https://www.google.com/" target="_blank" rel="noopener">谷歌</a>
         <a href="https://cn.bing.com/" target="_blank" rel="noopener">Bing</a>
@@ -117,7 +117,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat">
-      <header class="cat-head"><span class="cat-no">06</span><h3>个人站点 · Profiles</h3></header>
+      <header class="cat-head"><span class="cat-no">06</span><h3><span class="zh">个人站点</span><span class="en">Profiles</span></h3></header>
       <nav class="cat-links">
         <a href="https://github.com/lwh6a" target="_blank" rel="noopener">GitHub</a>
         <a href="https://gitee.com/liuhaoyun" target="_blank" rel="noopener">码云</a>
@@ -127,7 +127,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat">
-      <header class="cat-head"><span class="cat-no">07</span><h3>学习 · Learning</h3></header>
+      <header class="cat-head"><span class="cat-no">07</span><h3><span class="zh">学习</span><span class="en">Learning</span></h3></header>
       <nav class="cat-links">
         <a href="https://time.geekbang.org/" target="_blank" rel="noopener">极客时间</a>
         <a href="https://labuladong.online/algo/" target="_blank" rel="noopener">labuladong 算法</a>
@@ -142,7 +142,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat">
-      <header class="cat-head"><span class="cat-no">08</span><h3>开发工具 · Tools</h3></header>
+      <header class="cat-head"><span class="cat-no">08</span><h3><span class="zh">开发工具</span><span class="en">Tools</span></h3></header>
       <nav class="cat-links">
         <a href="http://tool.oschina.net/" target="_blank" rel="noopener">开源中国工具</a>
         <a href="https://greasyfork.org/zh-CN/scripts" target="_blank" rel="noopener">油猴脚本</a>
@@ -157,7 +157,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat">
-      <header class="cat-head"><span class="cat-no">09</span><h3>文档 · Docs</h3></header>
+      <header class="cat-head"><span class="cat-no">09</span><h3><span class="zh">文档</span><span class="en">Docs</span></h3></header>
       <nav class="cat-links">
         <a href="https://www.w3school.com.cn/" target="_blank" rel="noopener">w3school</a>
         <a href="http://man.linuxde.net/" target="_blank" rel="noopener">Linux 命令</a>
@@ -170,7 +170,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat">
-      <header class="cat-head"><span class="cat-no">10</span><h3>资源 &amp; 云 · Resources</h3></header>
+      <header class="cat-head"><span class="cat-no">10</span><h3><span class="zh">资源 &amp; 云</span><span class="en">Resources</span></h3></header>
       <nav class="cat-links">
         <a href="https://mvnrepository.com/" target="_blank" rel="noopener">Maven 仓库</a>
         <a href="https://hub.docker.com/" target="_blank" rel="noopener">DockerHub</a>
@@ -182,7 +182,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat">
-      <header class="cat-head"><span class="cat-no">11</span><h3>开源 · Open Source</h3></header>
+      <header class="cat-head"><span class="cat-no">11</span><h3><span class="zh">开源</span><span class="en">Open Source</span></h3></header>
       <nav class="cat-links">
         <a href="https://spring.io/" target="_blank" rel="noopener">Spring</a>
         <a href="https://baomidou.com/" target="_blank" rel="noopener">MyBatis-Plus</a>
@@ -195,7 +195,7 @@ sidebar: false
       </nav>
     </article>
     <article class="cat">
-      <header class="cat-head"><span class="cat-no">12</span><h3>邮箱 · Mail</h3></header>
+      <header class="cat-head"><span class="cat-no">12</span><h3><span class="zh">邮箱</span><span class="en">Mail</span></h3></header>
       <nav class="cat-links">
         <a href="https://mail.google.com/mail" target="_blank" rel="noopener">Gmail</a>
         <a href="https://outlook.live.com/" target="_blank" rel="noopener">Outlook</a>
@@ -208,6 +208,6 @@ sidebar: false
   <footer class="portal-foot">
     <span>© 2026 刘文豪 · Wenhao</span>
     <span class="foot-sep">/</span>
-    <span>Design system inspired by <a href="https://github.com/zarazhangrui/beautiful-html-templates" target="_blank" rel="noopener">Signal</a></span>
+    <span>Editorial system blended from <a href="https://github.com/zarazhangrui/beautiful-html-templates" target="_blank" rel="noopener">beautiful-html-templates</a></span>
   </footer>
 </div>
