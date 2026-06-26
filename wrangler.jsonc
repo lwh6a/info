@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "info",
+  "compatibility_date": "2026-06-26",
+  "assets": {
+    "directory": "docs/.vuepress/dist"
+  }
+}
