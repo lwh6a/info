@@ -4,6 +4,6 @@ module.exports = [
     ['link', {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: ''}],
     ['link', {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@400;500;700&display=swap'
     }],
 ];

@@ -5,8 +5,9 @@ sidebar: false
 ---
 <div class="portal">
   <header class="hero">
+    <div class="hero-bar"><span class="b-green"></span><span class="b-pink"></span><span class="b-orange"></span><span class="b-yellow"></span></div>
     <div class="hero-inner">
-      <p class="kicker">PERSONAL · ENGINEERING · AI</p>
+      <p class="kicker">VOL.01 / 个人主页 / 2026 — ENGINEERING &amp; AI</p>
       <h1 class="hero-name">刘文豪 <span class="name-accent">/ Wenhao</span></h1>
       <p class="hero-role">Java 后端工程师 <span class="sep">·</span> AI &amp; Agent 方向探索者</p>
       <p class="hero-lead">深耕 Java / JVM / 分布式后端，持续探索大模型应用、Agent 工程与 RAG。<br/>这里聚合我的技术导航、前沿信息与日常工具。</p>

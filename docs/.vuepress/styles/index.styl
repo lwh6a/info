@@ -1,209 +1,271 @@
-// ===== 个人主页 · 组合编辑风 =====
-// 森林绿 + 暖米白 + 柠檬黄 + 墨水蓝，粉色仅用于文字
-// 仅作用于首页（pageClass: home-portal），不影响文档页
+// ===== 个人主页 · Creative Mode（新粗野风）=====
+// 米白纸 + 黑描边硬阴影 + 绿/粉/橙/黄四色块，Archivo Black 大写粗标
+// 首页样式作用于 .home-portal；导航栏样式全站生效
 
-// 让首页内容铺满，去掉默认窄栏
+// ---------- 全站导航栏 ----------
+.navbar
+  background #EFE9D9
+  border-bottom 3px solid #0F0F0F
+  box-shadow none
+
+.navbar .site-name
+  font-family 'Archivo Black', 'PingFang SC', 'Microsoft YaHei', sans-serif
+  font-weight 800
+  color #0F0F0F
+  letter-spacing 0.01em
+
+.navbar .links
+  background-color #EFE9D9
+
+.navbar .nav-link
+  font-weight 600
+
+.navbar .search-box input
+  border 2px solid #0F0F0F
+  border-radius 0
+  background #FBF8EF
+
+// ---------- 首页容器 ----------
 .home-portal .theme-default-content
-  max-width 1180px
+  max-width 1200px
   padding 1.6rem 1.4rem 3rem
 
 .home-portal .theme-default-content:not(.custom)
-  max-width 1180px
+  max-width 1200px
   padding 1.6rem 1.4rem 3rem
 
 .home-portal
-  background #F1ECDE
+  background #EFE9D9
 
 .portal
-  font-family 'DM Sans', -apple-system, 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif
-  color #233029
+  font-family 'Space Grotesk', -apple-system, 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif
+  color #1A1A1A
 
 // ---------- HERO ----------
 .portal .hero
   position relative
-  overflow hidden
-  border-radius 14px
-  padding 3.4rem 3rem 3rem
-  color #F0EBDD
-  background linear-gradient(rgba(201,217,74,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(201,217,74,0.05) 1px, transparent 1px), linear-gradient(135deg, #1C3A27 0%, #2A5238 100%)
-  background-size 38px 38px, 38px 38px, 100% 100%
-  box-shadow 0 18px 50px rgba(28,58,39,0.26)
-  border 1px solid #2E4D38
+  background #FBF8EF
+  border 4px solid #0F0F0F
+  box-shadow 8px 8px 0 #0F0F0F
+  padding 0 0 2.4rem
+
+.portal .hero-bar
+  display flex
+  height 14px
+  border-bottom 4px solid #0F0F0F
+
+.portal .hero-bar span
+  flex 1
+
+.portal .hero-bar .b-green
+  background #1F8A4C
+.portal .hero-bar .b-pink
+  background #F06CA8
+.portal .hero-bar .b-orange
+  background #E85A1F
+.portal .hero-bar .b-yellow
+  background #F5C518
 
 .portal .hero-inner
-  position relative
-  z-index 1
+  padding 2.2rem 2.6rem 0
 
 .portal .kicker
-  font-family 'IBM Plex Mono', 'JetBrains Mono', monospace
+  font-family 'JetBrains Mono', 'IBM Plex Mono', monospace
   font-size 0.72rem
-  letter-spacing 0.22em
-  color #C9D94A
-  margin 0 0 1.1rem
+  letter-spacing 0.14em
+  text-transform uppercase
+  color #2A2A2A
+  margin 0 0 1rem
 
 .portal .hero-name
-  font-family 'Source Serif 4', Georgia, 'Times New Roman', serif
-  font-weight 700
-  font-size 3rem
-  line-height 1.02
+  font-family 'Archivo Black', 'PingFang SC', 'Microsoft YaHei', sans-serif
+  font-weight 800
+  font-size 3.2rem
+  line-height 0.98
   letter-spacing -0.01em
+  text-transform uppercase
   margin 0
-  color #F4F0E4
+  color #0F0F0F
 
-// 名字强调 —— 粉色（仅文字）
 .portal .hero-name .name-accent
-  color #E59FB0
-  font-weight 600
-  font-style italic
+  color #E85A1F
 
 .portal .hero-role
-  font-family 'Source Serif 4', Georgia, serif
-  font-size 1.35rem
-  font-weight 500
-  margin 0.7rem 0 0
-  color #E7E1D2
+  font-family 'Space Grotesk', sans-serif
+  font-size 1.2rem
+  font-weight 700
+  text-transform uppercase
+  letter-spacing 0.01em
+  margin 0.9rem 0 0
+  color #0F0F0F
 
 .portal .hero-role .sep
-  color #C9D94A
+  color #1F8A4C
   margin 0 0.4rem
 
 .portal .hero-lead
-  max-width 40rem
+  max-width 42rem
   font-size 0.98rem
-  line-height 1.7
-  color #9FB4A4
-  margin 1.1rem 0 0
+  line-height 1.65
+  color #2A2A2A
+  margin 1rem 0 0
 
-// 技能标签
 .portal .chips
   display flex
   flex-wrap wrap
   gap 0.5rem
-  margin 1.6rem 0 0
+  margin 1.5rem 0 0
 
 .portal .chip
-  font-family 'IBM Plex Mono', monospace
+  font-family 'JetBrains Mono', monospace
   font-size 0.72rem
   letter-spacing 0.04em
+  text-transform uppercase
   padding 0.34rem 0.7rem
-  border-radius 999px
-  border 1px solid #34543F
-  color #C4D2C7
-  background rgba(255,255,255,0.02)
+  border 2px solid #0F0F0F
+  background #EFE9D9
+  color #0F0F0F
 
 .portal .chip-ai
-  border-color rgba(201,217,74,0.5)
-  color #C9D94A
-  background rgba(201,217,74,0.08)
+  background #1F8A4C
+  color #EFE9D9
 
-// HERO 快捷链接
 .portal .hero-links
   display flex
   flex-wrap wrap
-  gap 1.3rem
-  margin 1.9rem 0 0
-  padding-top 1.4rem
-  border-top 1px solid #34543F
+  gap 0.7rem
+  margin 1.6rem 0 0
 
 .portal .hero-links a
-  font-family 'IBM Plex Mono', monospace
-  font-size 0.8rem
-  letter-spacing 0.04em
-  color #E7E1D2
+  font-family 'JetBrains Mono', monospace
+  font-size 0.78rem
+  letter-spacing 0.03em
+  color #0F0F0F
   text-decoration none
-  transition color .18s ease
+  padding 0.4rem 0.8rem
+  border 2px solid #0F0F0F
+  background #EFE9D9
+  transition all .12s ease
 
 .portal .hero-links a:hover
-  color #C9D94A
+  background #E85A1F
+  color #EFE9D9
+  box-shadow 3px 3px 0 #0F0F0F
 
 // ---------- 卡片网格 ----------
 .portal .grid
   display grid
-  grid-template-columns repeat(auto-fill, minmax(270px, 1fr))
-  gap 1.1rem
+  grid-template-columns repeat(auto-fill, minmax(280px, 1fr))
+  gap 1.3rem
   margin 1.6rem 0 0
 
 .portal .cat
-  position relative
   background #FBF8EF
-  border 1px solid #E2D9C4
-  border-radius 12px
-  padding 1.15rem 1.2rem 1.25rem
-  transition transform .18s ease, box-shadow .18s ease, border-color .18s ease
+  border 3px solid #0F0F0F
+  box-shadow 5px 5px 0 #0F0F0F
+  padding 0
+  transition transform .12s ease, box-shadow .12s ease
 
 .portal .cat:hover
-  transform translateY(-3px)
-  box-shadow 0 12px 26px rgba(28,58,39,0.14)
-  border-color #20422D
+  transform translate(-2px, -2px)
+  box-shadow 7px 7px 0 #0F0F0F
 
 .portal .cat-head
   display flex
-  align-items baseline
+  align-items center
   gap 0.6rem
-  padding-bottom 0.75rem
-  margin-bottom 0.85rem
-  border-bottom 1px solid #ECE4D2
+  padding 0.7rem 0.95rem
+  border-bottom 3px solid #0F0F0F
 
 .portal .cat-no
-  font-family 'IBM Plex Mono', monospace
-  font-size 0.72rem
-  font-weight 500
-  letter-spacing 0.06em
-  color #F4F0E4
-  background #20422D
-  padding 0.16rem 0.46rem
-  border-radius 5px
+  font-family 'Archivo Black', sans-serif
+  font-size 0.86rem
+  color #EFE9D9
+  background #0F0F0F
+  padding 0.16rem 0.5rem
   flex-shrink 0
-
-.portal .cat-ai .cat-no
-  background #C9D94A
-  color #20422D
 
 .portal .cat-head h3
   display flex
   align-items baseline
   gap 0.5rem
   flex-wrap wrap
-  font-size 1.05rem
-  font-weight 600
   margin 0
   border none
   padding 0
 
 .portal .cat-head h3 .zh
-  font-family 'Source Serif 4', Georgia, serif
-  color #20422D
+  font-family 'Archivo Black', 'PingFang SC', 'Microsoft YaHei', sans-serif
+  font-weight 800
+  font-size 1.02rem
 
-// 英文小标 —— 粉色（仅文字）
 .portal .cat-head h3 .en
-  font-family 'IBM Plex Mono', monospace
-  font-size 0.66rem
+  font-family 'JetBrains Mono', monospace
+  font-size 0.62rem
   font-weight 500
   letter-spacing 0.08em
   text-transform uppercase
-  color #D98AA0
+  opacity 0.8
 
 .portal .cat-links
   display flex
   flex-wrap wrap
   gap 0.45rem
+  padding 0.9rem 0.95rem 1rem
 
 .portal .cat-links a
-  font-size 0.84rem
+  font-size 0.82rem
   line-height 1.2
-  color #2C3A30
+  color #0F0F0F
   text-decoration none
-  padding 0.36rem 0.66rem
-  border-radius 7px
-  background #EFE8D6
-  border 1px solid transparent
-  transition all .15s ease
+  padding 0.34rem 0.6rem
+  border 2px solid #0F0F0F
+  background #EFE9D9
+  transition all .1s ease
 
 .portal .cat-links a:hover
-  color #1B3A8C
-  background #fff
-  border-color #1B3A8C
-  box-shadow 0 2px 8px rgba(27,58,140,0.16)
+  box-shadow 2px 2px 0 #0F0F0F
+
+// ---------- 卡片四色循环：绿 / 粉 / 橙 / 黄 ----------
+.portal .cat:nth-child(4n+1) .cat-head
+  background #1F8A4C
+.portal .cat:nth-child(4n+1) .cat-head h3 .zh
+  color #EFE9D9
+.portal .cat:nth-child(4n+1) .cat-head h3 .en
+  color #EFE9D9
+.portal .cat:nth-child(4n+1) .cat-links a:hover
+  background #1F8A4C
+  color #EFE9D9
+
+.portal .cat:nth-child(4n+2) .cat-head
+  background #F06CA8
+.portal .cat:nth-child(4n+2) .cat-head h3 .zh
+  color #0F0F0F
+.portal .cat:nth-child(4n+2) .cat-head h3 .en
+  color #0F0F0F
+.portal .cat:nth-child(4n+2) .cat-links a:hover
+  background #F06CA8
+  color #0F0F0F
+
+.portal .cat:nth-child(4n+3) .cat-head
+  background #E85A1F
+.portal .cat:nth-child(4n+3) .cat-head h3 .zh
+  color #EFE9D9
+.portal .cat:nth-child(4n+3) .cat-head h3 .en
+  color #EFE9D9
+.portal .cat:nth-child(4n+3) .cat-links a:hover
+  background #E85A1F
+  color #EFE9D9
+
+.portal .cat:nth-child(4n+4) .cat-head
+  background #F5C518
+.portal .cat:nth-child(4n+4) .cat-head h3 .zh
+  color #0F0F0F
+.portal .cat:nth-child(4n+4) .cat-head h3 .en
+  color #0F0F0F
+.portal .cat:nth-child(4n+4) .cat-links a:hover
+  background #F5C518
+  color #0F0F0F
 
 // ---------- 页脚 ----------
 .portal .portal-foot
@@ -211,33 +273,33 @@
   flex-wrap wrap
   align-items center
   gap 0.5rem
-  margin 2.4rem 0 0
+  margin 2.6rem 0 0
   padding-top 1.3rem
-  border-top 1px solid #E2D9C4
-  font-family 'IBM Plex Mono', monospace
+  border-top 3px solid #0F0F0F
+  font-family 'JetBrains Mono', monospace
   font-size 0.74rem
-  letter-spacing 0.04em
-  color #6E7A63
+  letter-spacing 0.03em
+  text-transform uppercase
+  color #2A2A2A
 
-// 分隔符 —— 粉色（仅文字）
 .portal .portal-foot .foot-sep
-  color #D98AA0
+  color #E85A1F
 
 .portal .portal-foot a
-  color #4A5A4E
+  color #0F0F0F
   text-decoration none
-  border-bottom 1px solid #20422D
+  border-bottom 2px solid #1F8A4C
 
 .portal .portal-foot a:hover
-  color #1B3A8C
+  color #1F8A4C
 
 // ---------- 响应式 ----------
 @media (max-width: 720px)
-  .portal .hero
-    padding 2.4rem 1.5rem
+  .portal .hero-inner
+    padding 1.8rem 1.3rem 0
   .portal .hero-name
-    font-size 2.1rem
+    font-size 2.2rem
   .portal .hero-role
-    font-size 1.1rem
+    font-size 1rem
   .home-portal .theme-default-content
     padding 1rem 0.9rem 2.4rem
